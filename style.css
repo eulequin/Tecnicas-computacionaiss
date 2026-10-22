@@ -1,9 +1,9 @@
 :root{
-    --cor-fundo: #EAF6FF;
-    --cor-principal: #D7ECFA;
-    --cor-secundaria: #B7DDF4;
-    --cor-destaque: #5CBCEB;
-    --cor-texto: #123047;
+    --cor-fundo: #01080E ;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333; 
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
 
 }
 
@@ -28,19 +28,11 @@ h1{
     color: var(--cor-destaque);
 }
 
-.caixa-resultado {
-    display: none;
-}
-
-.caixa-resultado.mostrar {
-    display: block;
-}
-
 button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
-    border-radius: 12px;
+    border-radius: 15px;
     padding: 15px;
     transition: background-color 0.3s;
 }
